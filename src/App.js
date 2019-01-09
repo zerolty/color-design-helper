@@ -8,8 +8,8 @@ const MAX = 25;
 const MIN = 1;
 
 function App() {
-  const startInputHook = useInputValue('#0ebeff', true);
-  const endInputHook = useInputValue('#ff42b3');
+  const startInputHook = useInputValue('#ffffff', true);
+  const endInputHook = useInputValue('#1890ff');
   const stepInputHook = useInputValue(1);
   const radiosHook = useInputValue('avg');
   const [colors, setColors] = useState([]); 
