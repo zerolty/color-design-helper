@@ -20,6 +20,16 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 > Like the current antd, Decrement/increment with the value of the HSV model to get a complete gradient swatch
 ![](https://user-images.githubusercontent.com/25033420/50901171-522c0080-1452-11e9-99ee-79ed1676a1cc.png)
 
+# Usage
+> run by MakeFile
+- `make install`
+- `make dev`
+- `make test`
+> you also can run by these ways
+- `npm run start`
+- `npm run build`
+- `npm run test`
+
 # License
 
 MIT
