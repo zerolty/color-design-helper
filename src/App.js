@@ -21,7 +21,6 @@ function App() {
     disabled: startInputHook.disabled
   };
 
-  debugger;
   const isColor = color => {
     return /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/.test(color);
   }
