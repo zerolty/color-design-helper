@@ -20,7 +20,7 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 ### @antd-v3 color
 > Like the current antd, Decrement/increment with the value of the HSV model to get a complete gradient swatch
 
-![](https://user-images.githubusercontent.com/25033420/50901171-522c0080-1452-11e9-99ee-79ed1676a1cc.png)
+![](https://user-images.githubusercontent.com/25033420/50903156-e5b40000-1457-11e9-8b5a-d3781a4f89ac.png)
 
 # Usage
 `Just a static resource running locally`
