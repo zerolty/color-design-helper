@@ -1,12 +1,12 @@
 # color-design-helper
 
-**Just a toy, can help color designers to generate color plates like ant-design**
-
-> [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
-
-![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
+**Just a toy, which can help color designers to generate color plates like ant-design**
 
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
+
+[Online address](https://renjie1996.github.io)
+
+[中文文档](https://github.com/renjie1996/color-design-helper/blob/master/docs/CN.md)
 
 ### average color
 > only average cut two colors
@@ -22,10 +22,15 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 ### @antd-v3 color
 > Like the current antd, Decrement/increment with the value of the HSV model to get a complete gradient swatch
 
-![](https://user-images.githubusercontent.com/25033420/50901171-522c0080-1452-11e9-99ee-79ed1676a1cc.png)
+![](https://user-images.githubusercontent.com/25033420/50903156-e5b40000-1457-11e9-8b5a-d3781a4f89ac.png)
 
 # Usage
 `Just a static resource running locally`
+
+> [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
+
+![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
+
 
 > run by MakeFile
 

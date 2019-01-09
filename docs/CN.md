@@ -2,9 +2,7 @@
 
 **一个帮助设计师的调色板的小玩具**
 
-> [参考antd: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
-
-![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
+[线上地址](https://renjie1996.github.io)
 
 完成了 `average color`、`tint-shade color`、`@antd-v3 color` 三种模式
 
@@ -38,6 +36,11 @@
 - `npm run start`
 - `npm run build`
 - `npm run test`
+
+
+> [参考antd: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
+
+![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
 
 # License
 
