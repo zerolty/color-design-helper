@@ -3,7 +3,7 @@
 **Just a toy, can help color designers to generate color plates like ant-design**
 
 > [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
-
+![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
 ### average color
