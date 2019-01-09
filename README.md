@@ -4,10 +4,13 @@
 
 > [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
 
+![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
+
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
 ### average color
 > only average cut two colors
+
 ![](https://user-images.githubusercontent.com/25033420/50901149-4b04f280-1452-11e9-9a37-9d2d59817302.png)
 
 ### tint-shade color
@@ -18,6 +21,7 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
 ### @antd-v3 color
 > Like the current antd, Decrement/increment with the value of the HSV model to get a complete gradient swatch
+
 ![](https://user-images.githubusercontent.com/25033420/50901171-522c0080-1452-11e9-99ee-79ed1676a1cc.png)
 
 # Usage
