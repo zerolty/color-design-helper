@@ -8,12 +8,20 @@ const MAX = 25;
 const MIN = 1;
 
 function App() {
-  const startInputHook = useInputValue('#0ebeff');
+  const startInputHook = useInputValue('#0ebeff', true);
   const endInputHook = useInputValue('#ff42b3');
   const stepInputHook = useInputValue(1);
   const radiosHook = useInputValue('avg');
   const [colors, setColors] = useState([]); 
 
+  const filterStartInputHook = {
+    // 过滤掉非原生的props
+    value: startInputHook.value, 
+    onChange: startInputHook.onChange, 
+    disabled: startInputHook.disabled
+  };
+
+  debugger;
   const isColor = color => {
     return /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/.test(color);
   }
@@ -43,6 +51,7 @@ function App() {
 
   const radios = ['avg', 'tintshade', 'antd'];
 
+
   return (
       <div className="App">
         <section className="controller">
@@ -62,8 +71,8 @@ function App() {
 
         
           <div className="color-picker">
-              <input type="color" {...startInputHook} disabled={startInputHook.disabled} />
-              <input type="text" {...startInputHook} disabled={startInputHook.disabled}/>
+              <input type="color" {...filterStartInputHook} disabled={startInputHook.disabled} />
+              <input type="text" {...filterStartInputHook} disabled={startInputHook.disabled}/>
           </div>
           <div className="range">
             <input type="range" min={MIN} max={MAX} {...stepInputHook} />

@@ -1,8 +1,10 @@
 import { useState, useCallback } from "react";
 
-export default function useInputValue(initiateValue) {
+export default function useInputValue(initiateValue, setOr) {
     const [value, setValue] = useState(initiateValue);
     const [disabled, setDisabled] =  useState(false);
     let onChange = useCallback(e => setValue(e.target.value), []);
-    return { value, onChange, setValue, disabled, setDisabled };
+    if(setOr) return { value, onChange, disabled, setDisabled, setValue };
+    else return { value, onChange, disabled };
+    
 }
