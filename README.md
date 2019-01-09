@@ -1,6 +1,6 @@
 # color-design-helper
 
-** Just a toy, can help color designers to generate color plates like ant-design **
+**Just a toy, can help color designers to generate color plates like ant-design**
 
 > [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
 
