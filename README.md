@@ -2,11 +2,9 @@
 
 **Just a toy, can help color designers to generate color plates like ant-design**
 
-> [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
-
-![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
-
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
+
+[中文文档](https://github.com/renjie1996/color-design-helper/blob/master/docs/CN.md)
 
 ### average color
 > only average cut two colors
@@ -26,6 +24,11 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
 # Usage
 `Just a static resource running locally`
+
+> [antd-refs: https://ant.design/docs/spec/colors-cn](https://ant.design/docs/spec/colors-cn)
+
+![](https://user-images.githubusercontent.com/25033420/50901576-a4215600-1453-11e9-9210-e7324273e386.png)
+
 
 > run by MakeFile
 
