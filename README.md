@@ -4,7 +4,7 @@
 
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
-[Online address](https://renjie1996.github.io)
+[Online address](http://zerolty.com/color-design-helper/)
 
 [中文文档](https://github.com/renjie1996/color-design-helper/blob/master/docs/CN.md)
 
