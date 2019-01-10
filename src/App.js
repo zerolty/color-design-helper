@@ -91,7 +91,7 @@ function App() {
         <ul className="color-list">
           {
             colors.map(c => (
-              <li className="color-item" key={c.toString()} style={styles(c)}>
+              <li className="color-item" key={c.toString() + Date.now()} style={styles(c)}>
                 {ColorHelper.toHex(c)}
               </li>
             ))
