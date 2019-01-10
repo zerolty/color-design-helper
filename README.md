@@ -1,7 +1,7 @@
 <h1 align="center">color-design-helper</h1>
 
  <p align="center">
-   <a href=""><img id="pic" src="https://user-images.githubusercontent.com/25033420/50951006-af719180-14e6-11e9-86d7-24ea64585b5d.png"></a>
+   <a href="http://zerolty.com/color-design-helper/"><img id="pic" src="https://user-images.githubusercontent.com/25033420/50951006-af719180-14e6-11e9-86d7-24ea64585b5d.png"></a>
  </p>
 
 
