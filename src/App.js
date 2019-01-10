@@ -22,7 +22,9 @@ function App() {
   };
 
   const isColor = color => {
-    return /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/.test(color);
+    return color !== '000000'
+      && color !== '#000000'
+      && /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/.test(color);
   }
 
   useEffect(() => {
