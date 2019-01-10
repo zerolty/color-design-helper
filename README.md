@@ -1,5 +1,7 @@
 # color-design-helper
 
+![](https://user-images.githubusercontent.com/25033420/50951006-af719180-14e6-11e9-86d7-24ea64585b5d.png)
+
 **Just a toy, which can help color designers to generate color plates like ant-design**
 
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
