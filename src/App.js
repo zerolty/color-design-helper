@@ -14,11 +14,13 @@ function App() {
   const radiosHook = useInputValue('avg');
   const [colors, setColors] = useState([]); 
 
+  const {value, onChange, disabled} = startInputHook;
+
   const filterStartInputHook = {
     // 过滤掉非原生的props
-    value: startInputHook.value, 
-    onChange: startInputHook.onChange, 
-    disabled: startInputHook.disabled
+    value,
+    onChange,
+    disabled,
   };
 
   const isColor = color => {
@@ -86,8 +88,8 @@ function App() {
         </section>
         <ul className="color-list">
           {
-            colors.map((c) => (
-              <li className="color-item" key={Date.now() + c.toString()} style={styles(c)}>
+            colors.map(c => (
+              <li className="color-item" key={c.toString()} style={styles(c)}>
                 {ColorHelper.toHex(c)}
               </li>
             ))

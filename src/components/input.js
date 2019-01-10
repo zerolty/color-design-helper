@@ -5,6 +5,6 @@ export default function useInputValue(initiateValue, setOr) {
     const [disabled, setDisabled] =  useState(false);
     let onChange = useCallback(e => setValue(e.target.value), []);
     if(setOr) return { value, onChange, disabled, setDisabled, setValue };
-    else return { value, onChange, disabled };
+    return { value, onChange, disabled };
     
 }
