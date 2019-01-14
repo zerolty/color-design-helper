@@ -13,6 +13,8 @@ Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
 [中文文档](https://github.com/renjie1996/color-design-helper/blob/master/docs/CN.md)
 
+[Article](https://github.com/renjie1996/Maple-FrontEnd-Blog/issues/17)
+
 ### average color
 > only average cut two colors
 
