@@ -5,7 +5,7 @@
  </p>
 
 
-** Just a toy, which can help color designers to generate color plates like ant-design. **
+**Just a toy, which can help color designers to generate color plates like ant-design.**
 
 Achieved `average color`、`tint-shade color`、`@antd-v3 color` three models
 
